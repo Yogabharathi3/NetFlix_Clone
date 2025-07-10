@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e50914;
+  color: white;
+}
+
+.container {
+  background: black;
+  padding: 20px;
+  max-width: 960px;
+  margin: 40px auto;
+  border-radius: 8px;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+
+.date {
+  color: gray;
+}
+
+.nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background:blue;
+}
+
+.main {
+  margin-top: 40px;
+}
+
+.main-content {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.poster {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.text-content {
+  flex: 1;
+}
+
+.tags {
+  color: gray;
+  font-size: 14px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.info, .desc {
+  color: #ccc;
+  margin: 5px 0;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.stream {
+  background-color: #e50914;
+  color: white;
+}
+
+.episodes {
+  background-color: #444;
+  color: white;
+}
+
+.trailer {
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.popular {
+  margin-top: 40px;
+}
+
+.shows {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.show {
+  background: #222;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 180px;
+}
+
+.show img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.show-title {
+  color: white;
+  font-size: 14px;
+}
+
+.age {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: #e50914;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
